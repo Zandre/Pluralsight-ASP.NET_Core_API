@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CityInfo.API
+build_property.ProjectDir = C:\Users\zbotha\Dev\Pluralsight ASP.NET Core Api - City Info\CityInfo.API\CityInfo.API\
