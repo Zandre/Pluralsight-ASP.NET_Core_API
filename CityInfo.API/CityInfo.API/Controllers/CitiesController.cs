@@ -8,15 +8,22 @@ namespace CityInfo.API.Controllers
     public class CitiesController: ControllerBase
     {
         [HttpGet()]
-        public JsonResult GetCities()
+        public IActionResult GetCities()
         {
-            return new JsonResult(CitiesDataStore.Current.Cities);
+            return Ok(CitiesDataStore.Current.Cities);
         }
 
         [HttpGet("{id}")]
-        public JsonResult GetCities(int id)
+        public IActionResult GetCities(int id)
         {
-            return new JsonResult(CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id));
+            var cityToReturn = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id);
+
+            if(cityToReturn == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(cityToReturn);
         }
     }
 }
