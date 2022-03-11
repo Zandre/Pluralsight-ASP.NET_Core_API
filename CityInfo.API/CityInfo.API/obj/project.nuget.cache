@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qWRcQeRzpVPAa1hf4RpR99CspuM4GjpTU3GvuK5C8+/YiLyTWEAFKX9ixIBvWR9uvwD+8TT3to2wM/N0HzORjg==",
+  "dgSpecHash": "UnuK31EGXbl1QaRPBRhsLaPd3kwsN73SD6jFVmYjsa1s1qlUwGU+dYXtV4226TNbD9hrqMSmyT7mfnMXzFJspA==",
   "success": true,
   "projectFilePath": "C:\\Users\\zbotha\\Dev\\Pluralsight ASP.NET Core Api - City Info\\CityInfo.API\\CityInfo.API\\CityInfo.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\zbotha\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.3\\microsoft.aspnetcore.jsonpatch.6.0.3.nupkg.sha512",
+    "C:\\Users\\zbotha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\zbotha\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
